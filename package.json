@@ -26,6 +26,7 @@
     "asar-require": "0.3.0",
     "async": "~0.2.8",
     "colors": "~0.6.1",
+    "electron-rebuild": "^2.0.1",
     "first-mate": "^7.4.1",
     "fs-plus": "2.x",
     "git-utils": "^5.6.2",
