@@ -30,7 +30,7 @@ class Install extends Command
     @repoLocalPackagePathRegex = /^file:(?!\/\/)(.*)/
 
   parseOptions: (argv) ->
-    options = yargs(argv).wrap(Math.min(100, yargs.terminalWidth()))
+    options = yargs.argv(argv).wrap(Math.min(100, yargs.terminalWidth()))
     options.usage """
 
       Usage: apm install [<package_name>...]
