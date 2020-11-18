@@ -52,7 +52,7 @@
     "underscore-plus": "1.x",
     "wordwrap": "1.0.0",
     "wrench": "~1.5.1",
-    "yargs": "^3.23.0"
+    "yargs": "^16.0.0"
   },
   "devDependencies": {
     "coffee-script": "^1.12.7",
