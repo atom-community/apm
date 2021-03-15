@@ -35,7 +35,7 @@
     "fs-plus": "3.x",
     "git-utils": "^5.7.1",
     "glob": "^7.1.6",
-    "hosted-git-info": "^3.0.7",
+    "hosted-git-info": "^4.0.0",
     "keytar": "^6.0.1",
     "mv": "2.1.1",
     "ncp": "~2.0.0",
