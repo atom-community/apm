@@ -1,0 +1,45 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 10
+  labels:
+  - dependencies
+  ignore:
+  - dependency-name: npm
+    versions:
+    - 6.14.11
+    - 7.5.2
+    - 7.5.4
+    - 7.6.0
+    - 7.6.1
+    - 7.6.3
+    - 7.7.5
+    - 7.8.0
+    - 7.9.0
+  - dependency-name: open
+    versions:
+    - 7.3.1
+    - 7.4.0
+    - 7.4.1
+    - 7.4.2
+    - 8.0.2
+    - 8.0.4
+    - 8.0.5
+  - dependency-name: hosted-git-info
+    versions:
+    - 3.0.8
+    - 4.0.0
+    - 4.0.1
+  - dependency-name: keytar
+    versions:
+    - 7.3.0
+    - 7.4.0
+  - dependency-name: node-gyp
+    versions:
+    - 7.1.2
+  - dependency-name: async
+    versions:
+    - 3.2.0
